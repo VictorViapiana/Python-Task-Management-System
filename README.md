@@ -1,96 +1,84 @@
-# 📝 Sistema de Tarefas em Python (CRUD)
+# 📝 Task Management System (Python CRUD)
 
-Projeto desenvolvido em Python com o objetivo de simular um sistema completo de gerenciamento de tarefas utilizando operações de CRUD (Create, Read, Update e Delete), com persistência de dados em arquivo JSON.
-
----
-
-## 🚀 Funcionalidades
-
-* ✅ Adicionar tarefas
-* 📋 Listar tarefas
-* ✏️ Atualizar tarefas
-* ❌ Deletar tarefas
-* 💾 Salvamento automático em arquivo JSON
-* 🛡️ Tratamento de erros para entradas inválidas
+A Python-based application designed to simulate a complete task management system using CRUD operations (Create, Read, Update, Delete). The project includes persistent data storage using a JSON file, ensuring that tasks are saved and maintained between executions.
 
 ---
 
-## 🧠 Conceitos aplicados
+## 🚀 Features
 
-* Estruturas de dados (listas)
-* Laços de repetição (`while`, `for`)
-* Condicionais (`if`, `elif`, `else`)
-* Funções
-* Manipulação de arquivos
-* Persistência de dados com JSON
-* Tratamento de exceções (`try/except`)
-
----
-
-## 🛠 Tecnologias utilizadas
-
-* Python
-* Biblioteca `json`
+- Add new tasks  
+- View all tasks  
+- Update existing tasks  
+- Delete tasks  
+- Automatic data persistence using JSON  
+- Input validation and error handling  
 
 ---
 
-## ▶️ Como executar o projeto
+## 🧠 Concepts and Skills Applied
 
-1. Clone este repositório:
+- Data structures (lists)  
+- Control flow (if, elif, else)  
+- Loops (while, for)  
+- Functions and modularization  
+- File handling in Python  
+- Data persistence with JSON  
+- Exception handling (try/except)  
 
-```bash
-git clone https://github.com/SEU-USUARIO/sistema-tarefas.git
+---
+
+## 🛠 Technologies Used
+
+- Python  
+- json library  
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:  
+git clone https://github.com/YOUR-USERNAME/task-manager.git  
+
+2. Navigate to the project directory:  
+cd task-manager  
+
+3. Run the application:  
+python main.py  
+
+---
+
+## 📌 Usage Example
+
+1 - Add Task  
+2 - View Tasks  
+3 - Update Task  
+4 - Delete Task  
+0 - Exit  
+
+---
+
+## 📂 Project Structure
+
 ```
-
-2. Acesse a pasta do projeto:
-
-```bash
-cd sistema-tarefas
-```
-
-3. Execute o arquivo:
-
-```bash
-python main.py
-```
-
----
-
-## 📌 Exemplo de uso
-
-Ao executar o programa, será exibido um menu interativo no terminal:
-
-```bash
-1 - Adicionar tarefa
-2 - Ver tarefas
-3 - Atualizar tarefa
-4 - Deletar tarefa
-0 - Sair
-```
-
----
-
-## 📂 Estrutura do projeto
-
-```bash
-sistema-tarefas/
+task-manager/
 │
 ├── main.py
-├── tarefas.json
+├── tasks.json
 └── README.md
 ```
 
 ---
 
-## 💡 Melhorias futuras
+## 💡 Future Improvements
 
-* Interface gráfica (Tkinter)
-* Integração com banco de dados (SQLite)
-* Criação de API com Flask
-* Sistema de autenticação de usuários
+- Graphical User Interface (GUI) using Tkinter  
+- Database integration (SQLite)  
+- REST API development using Flask  
+- User authentication system  
 
 ---
 
-## 📄 Licença
+## 📎 Author
 
-Este projeto foi desenvolvido para fins de estudo e prática em Python.
+## Developed by Victor Viapiana  
+GitHub: https://github.com/VictorViapiana
